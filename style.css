@@ -1,21 +1,25 @@
 .cabecalho{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
     width: 100%;
-    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 0.4px solid #fc7303;
 }
 
 .logo{
-    
+    margin-left: 60px;
 }
 
-nav{
-    display: inline;
+nav ul{
+    margin-right: 160px;
 }
 
-nav ul li{
+nav li{
     display: inline;
-    justify-content: space-around;
+    font-size: 22px;
+    color: rgb(10, 10, 10);
+    margin-right: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
 }
