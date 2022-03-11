@@ -1,3 +1,21 @@
-.container{
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    max-width: 980px;
+}
+
+.logo{
+    
+}
+
+nav{
     display: inline;
+}
+
+nav ul li{
+    display: inline;
+    justify-content: space-around;
 }
